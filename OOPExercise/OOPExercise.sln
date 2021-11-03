@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLContext", "MLContext\MLCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel", "MLModel\MLModel.csproj", "{10B4BA63-B476-47E6-B011-D315D2CCC2D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPExerciseApp", "OOPExerciseApp\OOPExerciseApp.csproj", "{8EBF282E-FEA4-4FD9-8773-C7C3D9486806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPExerciseApp", "OOPExerciseApp\OOPExerciseApp.csproj", "{8EBF282E-FEA4-4FD9-8773-C7C3D9486806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -22,7 +22,7 @@ namespace MLContext
 
         public void Train()
         {
-            model.Train(dataProvider.Read("E:/CODE/repos/Regression/OOPExercise/OOPExerciseApp/data.txt"));
+            model.Train(dataProvider.Read("../../../../OOPExerciseApp/data.txt"));
         }
 
         public int Predict(int dataPoint)
