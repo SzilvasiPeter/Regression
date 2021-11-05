@@ -11,6 +11,8 @@ namespace MLContext
     public class MLContext : IMLContext
     {
 
+        private const string DATA_FILE_PATH = "./data.txt";
+
         private IDataProvider dataProvider;
         private IMLModel model;
 
@@ -22,7 +24,7 @@ namespace MLContext
 
         public void Train()
         {
-            model.Train(dataProvider.Read("../../../../OOPExerciseApp/data.txt"));
+            model.Train(dataProvider.Read(DATA_FILE_PATH));
         }
 
         public int Predict(int dataPoint)
